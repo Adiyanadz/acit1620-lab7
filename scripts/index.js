@@ -60,8 +60,8 @@ function setup() {
         // 1. check the input value, if none provided, do nothing
         const numTries = event.target.value;
         if (numTries) {
-            tries = parseInt(numTries, 10); // Ensure 'tries' is an integer
-            play(); // Restart the game with the new number of tries
+            tries = parseInt(numTries, 10); 
+            play(); 
         }
         // 2. restart a new round of game
     });
